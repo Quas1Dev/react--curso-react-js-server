@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const dbConfig = "mongodb+srv://usuario:usuario@cluster0.tiaomwt.mongodb.net/?retryWrites=true&w=majority";
 
-const connection = mangoose.connect(dbConfig,  {
+const connection = mongoose.connect(dbConfig,  {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
